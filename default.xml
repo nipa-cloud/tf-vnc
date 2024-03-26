@@ -1,6 +1,7 @@
 <manifest>
 <remote name="github" fetch="https://github.com/opensdn-io"/>
-
+<remote name="github-nipa" fetch="https://github.com/nipa-cloud"/>
+  
 <default revision="refs/heads/master" remote="github"/>
 
 <project name="tf-build" remote="github" path="tools/build">
@@ -35,7 +36,7 @@
 <project name="tf-helm-deployer" remote="github" revision="master" path="tf-helm-deployer"/>
 <project name="tf-ansible-deployer" remote="github" path="tf-ansible-deployer"/>
 <project name="tf-kolla-ansible" remote="github" revision="master" path="tf-kolla-ansible"/>
-<project name="tf-container-builder" remote="github"  path="tf-container-builder"/>
+<project name="tf-container-builder" remote="github-nipa"  path="tf-container-builder"/>
 <project name="tf-tripleo-heat-templates" remote="github" revision="stable/queens" path="tf-tripleo-heat-templates"/>
 <project name="tf-operator" remote="github" revision="master" path="tf-operator"/>
 
