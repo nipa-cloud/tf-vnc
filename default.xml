@@ -1,7 +1,8 @@
 <manifest>
 <remote name="github" fetch="https://github.com/opensdn-io"/>
 <remote name="github-nipa" fetch="https://github.com/nipa-cloud"/>
-  
+
+<default revision="refs/heads/master" remote="github-nipa"/>
 <default revision="refs/heads/master" remote="github"/>
 
 <project name="tf-build" remote="github" path="tools/build">
